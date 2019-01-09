@@ -11,7 +11,30 @@
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh":true,
     "backgroundColor":"skyblue"
-    
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor":"red",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "",
+      "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
   },
   "debug":false
 }
