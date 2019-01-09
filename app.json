@@ -19,14 +19,14 @@
       {
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "",
-      "selectedIconPath": ""
+      "iconPath": "pages/assets/img/delete.png",
+      "selectedIconPath": "pages/assets/img/delete_color.png"
       },
       {
         "pagePath": "pages/logs/logs",
         "text": "日志",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "pages/assets/img/mang.png",
+        "selectedIconPath": "pages/assets/img/mang_color.png"
       },
       {
         "pagePath": "pages/news/news",
