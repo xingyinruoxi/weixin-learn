@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "red",
+    "navigationBarBackgroundColor": "#f3f3f3",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"skyblue"
+    
+  },
+  "debug":false
+}
