@@ -2,18 +2,30 @@
 微信小程序入门
 ## 入门文档
 
-## App启动文件
+### App启动文件生命周期
 ```
 onLaunch
 ```
 ```
-  onShow
+onShow
 ```
 
 ```
-  onHide
+onHide
 ```
-### 运行开发环境（编译和热重载）
+### 页面生命周期
 ```
-yarn run serve
+onLoad
+```
+```
+onReady
+```
+```
+onShow
+```
+```
+onHide
+```
+```
+onUnload
 ```
