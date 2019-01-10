@@ -1,0 +1,5 @@
+<!--pages/aboutus/about.wxml-->
+<text>关于我们页面</text>
+<navigator
+  url="/pages/detail/detail"
+>跳转到详情页面</navigator>

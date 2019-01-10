@@ -2,25 +2,27 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/about/about",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "red",
     "navigationBarBackgroundColor": "#f3f3f3",
     "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh":true,
-    "backgroundColor":"skyblue"
+    "enablePullDownRefresh": true,
+    "backgroundColor": "skyblue"
   },
   "tabBar": {
     "color": "#333",
-    "selectedColor":"red",
+    "selectedColor": "red",
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "/assets/img/delete.png",
-      "selectedIconPath": "/assets/img/delete_color.png"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/img/delete.png",
+        "selectedIconPath": "/assets/img/delete_color.png"
       },
       {
         "pagePath": "pages/logs/logs",
@@ -36,5 +38,5 @@
       }
     ]
   },
-  "debug":false
+  "debug": false
 }

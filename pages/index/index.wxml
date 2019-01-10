@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   首页
-  
+  <navigator
+    url="/pages/about/about"
+  >跳转到关于我们页面</navigator>
 </view>
