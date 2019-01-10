@@ -1,6 +1,26 @@
 <!--index.wxml-->
 <view class="container">
   首页
+  <view>{{name}}</view>
+
+  <!-- <view 
+    wx:for="{{nameArr1}}"
+    wx:key="*this"
+    >{{item}}</view>
+  <block wx:for="{{nameArr1}}">
+    <view>{{item}}</view>
+    <view> 上面是我的名字</view>
+  </block> -->
+  
+  <view
+    wx:if="{{score>80&&score<90}}"
+  >成绩优秀</view>
+  <view
+    wx:elif="{{score>60}}"
+  >成绩合格</view>
+  <view
+    wx:else
+  >您的成绩不合格</view>
   <navigator
     url="/pages/about/about"
   >跳转到关于我们页面</navigator>

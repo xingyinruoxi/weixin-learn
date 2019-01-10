@@ -1,10 +1,12 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+const arr1=['张三','李四','王五','赵六']
 Page({
   data: {
-   
+    name:'zhoulin',
+    nameArr1:arr1,
+    score:70
   },
   // tab之间的切换,不会让页面重新加载，当然也不会卸载了，只会显示隐藏
   // 在用NavigatorTo跳转的目标页会另加载，跳转之前的页面会隐藏
